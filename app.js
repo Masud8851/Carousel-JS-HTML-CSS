@@ -27,6 +27,7 @@ function updateSlidePosition() {
 
 	slides[slidePosition].classList.add("carousel_item--visible");
 }
+setInterval(moveToNextSlide, 5000);
 
 function moveToNextSlide() {
 	// console.log(" hello next");
